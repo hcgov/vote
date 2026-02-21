@@ -255,3 +255,8 @@ li{
     cursor: pointer;
     color: #338eda;
 }
+
+#embedNoWork{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
