@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>National General Elections eBallot</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+      <a href="https://parliament.hcgov.uk"><img src="parliament-full.svg" id="parliament-logo-header"></a>
+  </div>
+  <div id="body">
+      <h1 id="body-header">National General Elections eBallot</h1>
+      <h2 id="body-subheader">Official voting ballot for the Democratic Republic of Hack Club</h2>
+      <div id="before">
+          <h2>Ballots are not yet open.</h2>
+          <p>The following General Elections will begin in <span id="timeTil"></span>. Candidate options will be made available to you once the ballot is open.</p>
+      </div>
+      <div id="after">
+          <h2>Ballots are closed.</h2>
+          <p>The ballots for the Democratic Republic of Hack Club General Elections are closed. Please vote next time.</p>
+      </div>
+      <div class="container">
+          <h2>Identification:</h2>
+          <label for="slackId"><b id="slackId-label">Slack ID</b></label><input id="slackId" placeholder="Required"><br>
+          <label for="voterId"><b id="voterId-label">Voter ID</b></label><input id="voterId" placeholder="Required"><br><br>
+          <p id="blegh">Haven't gotten your Voting identification information yet? Click <b><u><a id="here" target="_blank">here</a></u></b> to obtain them.</p>
+          <div id="iframeContainer">
+              <iframe id="iframe" src="https://voterid.hcgov.uk"></iframe>
+              <p>Embed above doesn't work? Click <a href="https://voterid.hcgov.uk" target="_blank">here</a> instead</p>
+          </div>
+          <div id="x">
+              <hr>
+              <h2>Voting:</h2>
+              <p id="qwerty">Please drag and drop the boxes representing your candidate to your desired order. <br>Unsure how this works? Check out our guide to Ranked Choice Voting <a target="_blank" href="https://parliament.hcgov.uk/vote.html">here</a>.</p>
+              <div id="asdf">
+                  <div id="thing">
+                      <div id="morePreferred">
+                          <p>More preferred →</p>
+                      </div>
+                      <div id="lessPreferred">
+                          <p>← Less preferred</p>
+                      </div>
+                  </div>
+                  <div id="listContainer">
+                      <ul id="candidateList" class="rank-list"></ul>
+                  </div>
+              </div>
+              </div>
+              <div id="cunt">
+                  <button id="submit">Submit</button>
+              </div>
+
+      </div>
+  </div>
+  <div id="footer"><p style="color: #8492a6">The Parliament of Hack Club (Hack Club Parliament) and other associated communities and entities are not associated with the Hack Club 501(c)(3) non-profit organization. This is an unofficial community group and only exists for the purpose of entertainment.</p></div>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

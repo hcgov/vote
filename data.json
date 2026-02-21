@@ -1,0 +1,52 @@
+{
+  "electionCycle": "2026-02-02",
+  "electionStart": "1772032000",
+  "electionEnd":   "1772323199",
+  "candidates": {
+    "0": {
+      "fullName": "Anti Vibe Coding and PHP Party",
+      "abbreviation": "AVCAP",
+      "leaderSlack": "U0A0319L8JY"
+    },
+    "1": {
+      "fullName": "The Communist Overgladian Party of Tongyu",
+      "abbreviation": "TCOP",
+      "leaderSlack": "U07DJMFAQQP"
+    },
+    "2": {
+      "fullName": "Yuri Party of Hack Club",
+      "abbreviation": "YPH",
+      "leaderSlack": "U080YU735H8"
+    },
+    "3": {
+      "fullName": "MAke Hack Club Gay Again Party",
+      "abbreviation": "MAGA",
+      "leaderSlack": "U02KQ9WQT0A"
+    },
+    "4": {
+      "fullName": "Independent - lexm",
+      "abbreviation": "Independent",
+      "leaderSlack": "U079UHJDBRT"
+    },
+    "5": {
+      "fullName": "Parmesan Party",
+      "abbreviation": "PARM",
+      "leaderSlack": "U081C6XT885"
+    },
+    "6": {
+      "fullName": "Independent - Areg",
+      "abbreviation": "Independent",
+      "leaderSlack": "U085L7P77EV"
+    },
+    "7": {
+      "fullName": "Independent - Luminous",
+      "abbreviation": "Independent",
+      "leaderSlack": "U09B3S7TZ4N"
+    },
+    "8": {
+      "fullName": "Independent - Nightfall",
+      "abbreviation": "Independent",
+      "leaderSlack": "U07KVMBHH4L"
+    }
+  }
+}

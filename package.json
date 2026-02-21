@@ -1,0 +1,19 @@
+{
+  "name": "parliament-voter-ballot",
+  "private": true,
+  "devDependencies": {
+    "@types/airtable": "^0.10.5",
+    "@types/axios": "^0.14.4",
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

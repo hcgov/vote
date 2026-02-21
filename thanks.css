@@ -1,0 +1,94 @@
+@font-face{
+    font-family: "Phantom Sans";
+    src: url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff") format("woff"),
+    url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Phantom Sans";
+    src: url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff") format("woff"),
+    url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2")
+    format("woff2");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Phantom Sans";
+    src: url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff") format("woff"),
+    url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#header{
+    background-color: #333333;
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem 0 1.2rem 0;
+}
+
+#parliament{
+    width: 13rem;
+}
+
+body{
+    font-family: "Phantom Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #e0e6ed;
+}
+
+h1{
+    color: #ec3750;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    color: #338eda;
+    font-size: 1.75rem;
+    margin-top: 0;
+}
+
+#container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: #555555;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+#footer{
+    width: 60%;
+    margin: 10rem auto 3rem auto;
+    color: #8492a6
+}
+
+button{
+    appearance: none;
+    all: unset;
+    background-color: #ec3750;
+    color: white;
+    padding: 0.65rem 1.1rem;
+    border-radius: 0.6rem;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 1.5rem;
+    box-shadow: 0 3px 2px #999999;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #af2d41;
+}

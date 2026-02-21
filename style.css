@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+    format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+    format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff')
+    format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2')
+    format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+    format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+    format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #e0e6ed;
+    font-family: "Phantom Sans", sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 1.2rem 0 1.2rem 0;
+}
+#parliament-logo-header{
+    width: 13rem;
+}
+
+#body-header{
+    color: #333333;
+    font-size: 2.75rem;
+}
+#body{
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+#body-subheader{
+    color: #444444;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+}
+
+.container{
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 1rem 2rem 1.2rem 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+input{
+    all: unset;
+    background-color: white;
+    margin-left: 1rem;
+    height: 1.5rem;
+    padding: 0.2rem 0.75rem;
+    font-family: monospace;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    box-shadow: #999999 0 2px 2px;
+}
+
+label{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #777777;
+    margin: 3rem 2rem;
+}
+
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+li{
+    cursor: grab;
+}
+
+.candidateContainer{
+    width: 80%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #b0bbcc;
+    pointer-events: none;
+    box-shadow: #999 -2px 3px 3px;
+}
+
+.dragIndicator{
+    display: inline-block;
+    width: 3%;
+}
+
+.candidateName{
+    /*font-weight: bold;*/
+    color: #000;
+}
+
+.candidateAbbreviation{
+    font-family: monospace;
+}
+
+.candidateDetailsContainer{
+    display:inline-flex;
+    width: 95%;
+    justify-content: space-between;
+}
+#asdf{
+    display: flex;
+    width: 100%
+}
+
+/*div{*/
+/*    border: 1px solid black;*/
+/*}*/
+
+#listContainer{
+    width: 100%;
+}
+
+#morePreferred{
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: #777777;
+    /*font-weight: bold;*/
+    margin-top: 1rem
+}
+
+#lessPreferred{
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: #777777;
+    /*font-weight: bold;*/
+    margin-bottom: 2rem;
+}
+
+#thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#qwerty{
+    margin-left: 2rem;
+    font-style: italic;
+    line-height: 2.2rem;
+}
+
+#submit{
+    appearance: none;
+    all: unset;
+    background-color: #ec3750;
+    color: white;
+    padding: 0.65rem 1.1rem;
+    border-radius: 0.6rem;
+    transition: background-color 0.2s ease-in-out;
+    margin: 3rem 3% 1rem auto;
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: #af2d41
+}
+
+#cunt{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer{
+    width: 60%;
+    margin: 5rem auto 3rem auto;
+}
+
+#before, #after{
+    background-color: #ec3750;
+    color: white;
+    border-radius: 0.6rem;
+    padding: 1rem 2rem;
+    display: none;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+}
+
+#submit:disabled{
+    cursor: not-allowed;
+    background-color: #c0cbda;
+    border: 2px solid white;
+}
+
+#blegh{
+    font-size: 1.2rem;
+    margin-left: 2.5rem;
+    margin-right: 4rem;
+}
+
+#timeTil{
+    font-weight: bold;
+}
+
+#iframe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30rem;
+    border: 1px solid #333333;
+    border-radius: 7.5px;
+}
+
+#iframeContainer{
+    display:none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+#here{
+    color: #ec3750;
+    transition: color 0.05s ease-in-out;
+}
+
+#here:hover{
+    cursor: pointer;
+    color: #338eda;
+}
