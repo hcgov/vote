@@ -4,6 +4,15 @@ import * as dotenv from "dotenv";
 dotenv.config();
 import axios, {AxiosError} from "axios";
 import Airtable from "airtable";
+import fs from "fs";
+import path from "path";
+
+const dataPath = path.join(__dirname, "data.json");
+const rawData = fs.readFileSync(dataPath, "utf8");
+const electionData = JSON.parse(rawData);
+
+const electionStart = Number(electionData.electionStart);
+const electionEnd = Number(electionData.electionEnd);
 
 const app = express();
 const port = 3297;
@@ -37,10 +46,6 @@ async function createRecord(input:airtableRecord){
 }
 
 app.post("/submit-vote", async (req, res) => {
-    const info = await fetch("data.json");
-    const data = await info.json();
-    const electionStart:number = Number(data.electionStart);
-    const electionEnd:number = Number(data.electionEnd);
     const now = Math.floor(Date.now()/ 1000);
 
     if(now< electionStart){
