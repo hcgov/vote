@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         });
     }
     catch (err) {
-        alert(err);
+        alert(`${err} Please check your internet connection.`);
     }
     const electionCycle = new Date(data.electionCycle);
     let bodyHeader = document.getElementById("body-header");
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', async (event) => {
         alert("eBallot submitted successfully");
         submit.disabled = true;
         submit.innerText = "Ballot already submitted";
-        await fetch("http://server.astr.ac/submit-vote", {
+        await fetch("http://parliament-eballot.astr.ac/submit-vote", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
