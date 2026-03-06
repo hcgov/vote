@@ -41,3 +41,7 @@ AIRTABLE_DB_ID="ID of Airtable base (starts with app...)"
 TABLE_NAME="Name of the table (e.g. Table 2)"
 ```
 # 2. Run server.ts
+
+Run in root directory of project:
+```bash
+tsx server.ts```
