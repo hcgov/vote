@@ -44,4 +44,5 @@ TABLE_NAME="Name of the table (e.g. Table 2)"
 
 Run in root directory of project:
 ```bash
-tsx server.ts```
+tsx server.ts
+```
