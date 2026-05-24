@@ -15,7 +15,7 @@ const electionStart = Number(electionData.electionStart);
 const electionEnd = Number(electionData.electionEnd);
 
 const app = express();
-const port = 3297;
+const port = 3000;
 
 const airtableKey = process.env.AIRTABLE_KEY as string;
 const airtableId = process.env.AIRTABLE_DB_ID as string;
