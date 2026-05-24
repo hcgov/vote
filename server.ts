@@ -34,6 +34,7 @@ const base = new Airtable({apiKey: airtableKey}).base(airtableId);
 const table = base(tableName);
 
 async function createRecord(input:airtableRecord){
+    console.log(input);
     await table.create([
         {
             fields:{
