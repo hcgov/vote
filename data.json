@@ -1,52 +1,62 @@
 {
-  "electionCycle": "2026-02-02",
-  "electionStart": "1771632000",
-  "electionEnd":   "1772323199",
+  "electionCycle": "2026-05-23",
+  "electionStart": "1779573600",
+  "electionEnd": "1780178400",
   "candidates": {
     "0": {
-      "fullName": "Anti Vibe Coding and PHP Party",
+      "fullName": "Anti Vibe Coding And Php",
       "abbreviation": "AVCAP",
-      "leaderSlack": "U0A0319L8JY"
+      "leaderSlack": "U08D3AY7BG8"
     },
     "1": {
-      "fullName": "The Communist Overgladian Party of Tongyu",
-      "abbreviation": "TCOP",
-      "leaderSlack": "U07DJMFAQQP"
+      "fullName": "Hack Club Communist Party",
+      "abbreviation": "HCP",
+      "leaderSlack": "U09CJQGNVFA"
     },
     "2": {
-      "fullName": "Yuri Party of Hack Club",
-      "abbreviation": "YPH",
-      "leaderSlack": "U080YU735H8"
+      "fullName": "Communist Overgladian Party of Tongyu",
+      "abbreviation": "TCOP",
+      "leaderSlack": "U0A0MLXQW7N"
     },
     "3": {
-      "fullName": "MAke Hack Club Gay Again Party",
-      "abbreviation": "MAGA",
-      "leaderSlack": "U02KQ9WQT0A"
+      "fullName": "Lock-bit Party",
+      "abbreviation": "LBP",
+      "leaderSlack": "U0AK24A5EA2"
     },
     "4": {
-      "fullName": "Independent - lexm",
-      "abbreviation": "Independent",
-      "leaderSlack": "U079UHJDBRT"
+      "fullName": "Republic of Soup",
+      "abbreviation": "ROS",
+      "leaderSlack": "U0AHYURUG92"
     },
     "5": {
-      "fullName": "Parmesan Party",
+      "fullName": "Parmesean Party",
       "abbreviation": "PARM",
       "leaderSlack": "U081C6XT885"
     },
     "6": {
-      "fullName": "Independent - Areg",
+      "fullName": "Independent - lexm",
       "abbreviation": "Independent",
-      "leaderSlack": "U085L7P77EV"
+      "leaderSlack": "U079UHJDBRT"
     },
     "7": {
-      "fullName": "Independent - Luminous",
-      "abbreviation": "Independent",
-      "leaderSlack": "U09B3S7TZ4N"
+      "fullName": "Do Not Vote For This Party",
+      "abbreviation": "DNVFTP",
+      "leaderSlack": "U0A546Y17DK"
     },
     "8": {
-      "fullName": "Independent - Nightfall",
-      "abbreviation": "Independent",
+      "fullName": "Yuri Party",
+      "abbreviation": "YURI",
+      "leaderSlack": "U0A546Y17DK"
+    },
+    "9": {
+      "fullName": "Vote For This Party",
+      "abbreviation": "VFTP",
       "leaderSlack": "U07KVMBHH4L"
+    },
+    "10": {
+      "fullName": "Programmers are Alchemist Society",
+      "abbreviation": "PAAS",
+      "leaderSlack": "U0AM8ASHEG6"
     }
   }
 }
